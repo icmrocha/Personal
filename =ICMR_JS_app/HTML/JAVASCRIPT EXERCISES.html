@@ -1,0 +1,110 @@
+<html>
+<body>
+
+<!--
+	<script id="exe1"> //Cria uma pir�mide de hashtags no log
+  var hash = "#";
+  for (var num = 1; num <7; num++){
+  console.log(hash);
+  hash += "#";
+  }
+    </script>
+
+	<script id="exe2"> //Imprime no log nros de 1 a 100 e qdo divis�vel por 3 imprime Fizz e
+					   //divis�vel por 5 escreve Buzz, al�m do pr�prio n�mero
+					   //add-- escreve "FizzBuzz" se for divis�vel ao mesmo tempo por 3 e 5 . ex.90
+var num = 1;
+var count = 1;
+while (count <= 100) {
+  if (num % 3 == 0 && num % 5 ==0) {
+	console.log("FizzBuzz"+" "+num);
+	document.write("FizzBuzz"+" "+num);
+	}
+ else if (num % 3 == 0) {
+	console.log("Fizz"+" "+num);
+	document.write("Fizz"+" "+num);
+	}
+ else if (num % 5 ==0) {
+	console.log("Buzz" + " " + num);
+	document.write("Buzz" + " " + num);
+	}
+ else  {
+	console.log(num);
+	document.write(num);
+	}
+ num++;
+ count++;
+ }
+	</script>
+
+	<script id="exe3">
+	//Escreva um programa que cria uma string que representa uma grade 8x8,
+	//usando novas linhas para separar os caracteres.
+	//A cada posi��o da grade existe ou um espa�o ou um caracter �#�,
+	//de forma que estes caracteres formem um tabuleiro de xadrez.
+
+	var size = 8;
+	for (var i = 0; i < size; i++) {
+	if (i % 2 == 0) {
+		console.log ("# # # #");
+	}else{
+		console.log (" # # # #");
+	}
+	}
+	</script>
+
+	<br>
+	<br>
+	<br>
+	<p>
+	<script>
+function printFarm (cows,chickens) {
+var cowString = String(cows);
+while (cowString.lengh <3)
+ cowString = "0" + cowString;
+ console.log(cowString + "Cows");
+
+ var chickenString = String(chickens);
+ while (chickenString.lengh <3)
+ chickenString = "0" + chickenString;
+ console.log(chickenString + "Chickens");
+ }
+ printFarm (4, 7);
+
+
+
+	</script>
+-->
+
+  <script>
+  var age
+  age = prompt("What's your age?");
+  if (age <= 26)
+  document.write(age + "!" + " Nossa, você é jovem ainda!");
+
+else document.write(age + "!" + " É, você está ficando velho!");
+
+  </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ </body>
